@@ -1,1 +1,0 @@
-<p id="podium_disclaimer">Please note: the information on this page has been provided and reviewed by individual experts in fields related to climate science, but has not undergone systematic editorial or peer review.</p>

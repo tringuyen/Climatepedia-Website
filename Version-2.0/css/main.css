@@ -1,0 +1,204 @@
+a {
+	
+	color: #3e8c0e;
+
+
+	
+}
+
+#sub_header2 {
+	
+	background: #fff;
+	
+}
+
+
+
+#middle {
+	
+	border-left: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #bbb;
+	padding-top: 16px;
+	height: 1500px;
+	
+}
+
+
+
+#focus_bg {
+	
+	position: absolute;
+	width: 30%;
+	height: 60px;
+	top: 56px;
+	right: 0;
+	background:url(images/focus-bg-blue.png) repeat-x;
+	z-index: 0;
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #8badee;
+
+}
+
+#focus_bar {
+	
+	margin-top: -30px;
+	float: right;
+	position: relative;
+	width: 799px;
+	height: 60px;
+	background:url(images/focus-bg-blue.png) repeat-x;
+	z-index: 1;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #6292ee;
+	border-top: 1px solid #8badee;
+
+	
+}
+
+#focus_title {
+	
+	color: #fff;
+	line-height: 60px;
+	padding-left: 20px;
+	font-weight: bolder;
+	text-shadow: #2b4578 1px 1px;
+	font-size: 140%;
+	float: left;
+}
+
+#focus_feedback {
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #777;
+	border-right: 1px solid #555;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	float: right;	
+	color: #666;
+	font-weight: bold;
+	font-size: 75%;
+	margin-top: 13px;
+	margin-left: 5px;
+
+	
+}
+
+#focus_sort {
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	position: relative;
+	float: right;
+	margin-top: 13px;
+	margin-left: 28px;
+	
+}
+
+#media_sort_button {
+	
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #777;
+	border-right: 1px solid #555;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	color: #666;
+	font-weight: bold;
+	font-size: 75%;
+
+}
+
+#media_sort_button:hover, #focus_feedback:hover {
+	
+	text-decoration: none;
+	background: url(/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #d5d5d5;
+	text-shadow: #7E9F5F 1px 1px;
+
+
+
+}
+
+#media_sort_button.media_sort_button_active {
+	
+	text-decoration: none;
+	background: url(/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #d5d5d5;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+#media_sort_button:active {
+	
+	text-decoration: none;
+
+	
+}
+
+
+#media_sort_button img {
+	
+	padding-left: 3px;
+	padding-bottom: 2px;
+	
+}
+
+
+#media_sort_wrapper {
+	
+	position: absolute;
+	top: 31px;
+	right: -2px;
+	bottom: -1px;
+	width: 860px;
+	display: none;
+
+	
+}
+
+#media_sort_list {
+	
+	background: #9ecd76;
+	border: 1px solid #d5d5d5;
+	float: right;
+	clear: right;
+	width: 110px;
+}
+
+#media_sort_list ul {
+	
+	list-style-type: none;
+	
+}
+
+#media_sort_list li {
+	
+	width: 110px;
+	text-align: center;
+	padding: 5px 0;
+		
+}
+
+#media_sort_list a {
+
+
+	color: #fff;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+

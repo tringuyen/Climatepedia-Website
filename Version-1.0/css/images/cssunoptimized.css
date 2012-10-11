@@ -1,0 +1,455 @@
+
+
+body {
+font-family:Verdana, Helvetica, sans-serif;
+color:#000;
+background:#010c2a;
+background-repeat:no-repeat;
+background-position:top center;
+background-attachment:fixed;
+font-size:small;
+font-weight:100;
+min-width:910px;
+height: 100%;
+margin:10px 25px 25px;
+}
+
+#background {
+	
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	
+}
+
+#background img {
+	
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#wrapper {
+width:910px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+background: url(http://www.climatepedia.org/css/images/transparency2.png);
+z-index: 5;
+position: absolute;
+left: 50%;
+margin-left: -455px;
+
+}
+
+#navbar {
+height:71px;
+width:910px;
+border-bottom: 1px solid #333;
+background: #171717;
+}
+
+
+
+#logopic {
+float:left;
+border:none;
+height: 70px;
+
+
+}
+
+#logopic:hover {
+	
+	opacity:.8;
+	
+}
+
+* {
+margin:0;
+padding:0
+}
+
+
+ul.topnav {
+	list-style: none;
+	margin: 0;
+	float: left;
+	width: 716px;
+	background: #222;
+	font-size: 1em;
+	background: url(http://www.climatepedia.org/css/images/topnav_bg.gif) repeat-x;
+	font-weight: 900;
+	letter-spacing: -1px;
+	z-index: 9999;
+	
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 22px 0 26px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+	cursor: pointer;
+	z-index: 9999;
+	
+}
+ul.topnav li a{
+	padding: 9px 5px;
+	color: #d5d5d5;
+	display: block;
+	text-decoration: none;
+	float: left;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 900;
+	z-index: 9999;
+}
+ul.topnav li a:hover{
+	background: url(http://www.climatepedia.org/css/images/topnav_hover.gif) no-repeat center top;
+	z-index: 9999;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(http://www.climatepedia.org/css/images/subnav_btn.gif) no-repeat center top;
+	z-index: 9999;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	text-transform: none;
+	z-index: 9999;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-transform: none;
+	z-index: 9999;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(http://www.climatepedia.org/css/images/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+	text-transform: none;
+	font-weight: 500;
+	z-index: 9999;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(http://www.climatepedia.org/css/images/dropdown_linkbg.gif) no-repeat 10px center;
+	z-index: 9999;
+}
+
+#locationbar {
+float:left;
+width:374px;
+height:30px;
+background: #171717;
+text-indent:5px;
+font-size:10px;
+color:#00B2EE;
+line-height:30px;
+border-top: 1px solid #111;
+text-align: center;
+letter-spacing: 1px;
+}
+
+#locationbar a:hover {
+	
+	color: #007ba4;
+	
+}
+
+a:link {
+color:#00B2EE;
+text-decoration:none
+}
+
+a:visited {
+color:#00B2EE;
+text-decoration:none
+}
+
+#searchbar {
+float:left;
+width:332px;
+height:30px;
+background: #171717;
+padding-right:10px;
+border-top: 1px solid #111;
+}
+
+#searchbox {
+background:url(http://www.climatepedia.org/css/images/searchbox.gif) no-repeat center;
+width:229px;
+height:30px;
+float:right;
+display:block
+}
+
+#searchbtn {
+background:url(http://www.climatepedia.org/css/images/searchbtn.gif) no-repeat center;
+width:80px;
+height:30px;
+float:right;
+display:block;
+margin-left:2px
+}
+
+
+#dock {
+	
+	width: 906px;
+	height: 260px;
+	background: #050505;
+	float: left;
+	border-top: 1px solid #151515;
+	border-bottom: 1px solid #151515;
+	border-right: 2px solid #151515;
+	border-left: 2px solid #151515;
+	position: relative;
+
+	
+}
+
+
+#discussionicon {
+	
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(images/discussion2.png);
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	
+}
+
+
+#blogicon {
+	
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(images/blog2.png);
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	
+}
+
+#theclimatepediaicon {
+	
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(images/theclimatepedia2.png);
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	
+}
+
+#getinvolvedicon {
+	
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(images/getinvolved.png);
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	
+}
+
+#mediaicon {
+	
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(images/media2.png);
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+	
+}
+
+#discussionicon:hover, #blogicon:hover, #theclimatepediaicon:hover, #getinvolvedicon:hover, #mediaicon:hover {
+	
+	background-position: 0 -150px;
+	
+}
+
+#dicussionicon span, #blogicon span, #theclimatepedia span, #getinvolvedicon span, #mediaicon span {
+	
+	display: none;
+	
+}
+
+#discussiontag {
+	
+	position: absolute;
+	top: 200px;
+	left: 40px;
+	color: #dedede;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 180%
+	
+}
+
+#blogtag {
+	
+	position: absolute;
+	top: 200px;
+	left: 250px;
+	color: #dedede;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 180%
+	
+}
+
+#theclimatepediatag {
+	
+	position: absolute;
+	top: 200px;
+	left: 380px;
+	color: #dedede;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 180%
+	
+}
+
+#getinvolvedtag {
+	
+	position: absolute;
+	top: 200px;
+	left: 558px;
+	color: #dedede;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 180%
+	
+}
+
+#mediatag {
+	
+	position: absolute;
+	top: 200px;
+	left: 762px;
+	color: #dedede;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 180%
+	
+}
+#panel {
+	
+	width: 910px;
+	float: left;
+	background: #171717;
+	border-top: 1px solid #333;
+	
+}
+
+#last {
+	
+	border-bottom: none;
+	
+}
+
+#new {
+	
+	width: 600px;
+	height: 300px;
+	float: left;
+	margin: 20px 0px 0px 10px;
+	color: #909090;
+	font-size: 80%;
+}
+
+#image {
+	
+	border: 1px solid #000;
+	float: left;
+	
+}
+
+#month {
+	
+	float: left;
+	color: #f0f0f0;
+	
+}
+
+#month h2 {
+	
+	padding: 10px;
+	
+}
+
+#updates {
+
+
+float:right;
+width:270px;
+height:800px;
+margin: 20px 0px 0px 10px;	
+padding: 0px 10px;
+
+}
+
+#updates h1 {
+	
+	font-size: 85%;
+	color: white;	
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+#border {
+	
+	width: 100%;
+	height:1px;
+	background: #222;	
+	border-top: 1px solid #050505;
+	
+}
+
+
+
+
+
+
+#footer {
+width:910px;
+height:115px;
+background:#090909;;
+font-size:40px;
+color:#d5d5d5;
+line-height:115px;
+text-align:center;
+clear: both;
+border-top: 1px solid #222;
+}
+
+

@@ -1,0 +1,380 @@
+#sub_header2 {
+	
+	background: #fff;
+	
+}
+
+
+#knowledge_contents {
+	
+	padding-top: 0;
+	width: 170px;
+	height: 200px;	
+	margin-right: 10px;
+}
+
+#knowledge_contents p {
+	
+	color: #333;
+	font-size: 70%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 5px;
+	
+	
+}
+
+#knowledge_contents ol {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#knowledge_contents li {
+	
+	padding: 0;
+	line-height: 22px;
+
+	
+}
+
+#knowledge_contents a {
+	
+	font-weight: normal;
+	font-size: 70%;
+	color: #004ee3;
+
+	
+}
+
+#knowledge_contents li ol {
+	
+	padding-left: 20px;
+	
+}
+
+
+#middle {
+	
+	border-left: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #aaa;
+	
+}
+
+
+#focus_bg {
+	
+	position: absolute;
+	width: 30%;
+	height: 60px;
+	top: 56px;
+	right: 0;
+	background:url(images/focus-bg-blue.png) repeat-x;
+	z-index: 0;
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #8badee;
+
+}
+
+#focus_bar {
+	
+	margin-top: -30px;
+	float: right;
+	position: relative;
+	width: 799px;
+	height: 60px;
+	background:url(images/focus-bg-blue.png) repeat-x;
+	z-index: 1;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #6292ee;
+	border-top: 1px solid #8badee;
+
+	
+}
+
+#focus_title {
+	
+	color: #fff;
+	line-height: 60px;
+	padding-left: 20px;
+	font-weight: bolder;
+	text-shadow: #2b4578 1px 1px;
+	font-size: 140%;
+	float: left;
+}
+
+#focus_all {
+	
+	display: block;
+	height: 30px;
+	width: 90px;
+	position: relative;
+	float: right;
+	margin-top: 13px;
+	margin-left: 40px;
+	
+}
+
+#focus_all_button {
+	
+	
+	display: block;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	background: url(images/admin-buttons-bg.png) repeat-x;
+	border: 1px solid #EDEDED;
+	color: #757575;
+	font-weight: bold;
+	font-size: 75%;
+
+
+
+
+
+	
+	
+}
+
+
+
+
+
+#focus_all_button:hover, #focus_feedback:hover {
+	
+	text-decoration: none;
+	color: #333;
+	background: url(images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #ccc;
+	text-shadow: #7E9F5F 1px 1px;
+
+}
+
+#focus_all_button.focus_all_button_active {
+	
+	text-decoration: none;
+	color: #333;
+	background: url(images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #ccc;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+#focus_all_button:active {
+	
+	text-decoration: none;
+
+	
+}
+
+
+#focus_all_button img {
+	
+	padding-left: 3px;
+	padding-bottom: 2px;
+	
+}
+
+
+#article_directory_wrapper {
+	
+	position: absolute;
+	top: 31px;
+	right: -1px;
+	width: 900px;
+	display: none;
+
+	
+}
+
+#article_directory_list {
+	
+	background: #fff;
+	border: 3px solid #a0ce79;
+	float: right;
+	clear: right;
+}
+
+#article_directory_list ol {
+	
+
+	list-style-type: none;
+	float: left;
+	width: 170px;
+	padding: 10px;
+	
+}
+
+#article_directory_list li {
+	
+
+	padding: 5px 0px;
+	width: 170px;
+	
+	
+}
+
+#article_directory_list li a {
+	
+	font-size: 80%;
+	
+	
+}
+
+
+
+
+
+#focus_feedback {
+	
+	display: block;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	background: url(images/admin-buttons-bg.png) repeat-x;
+	border: 1px solid #EDEDED;
+	float: right;	
+	color: #757575;
+	font-weight: bold;
+	font-size: 75%;
+	margin-top: 13px;
+	margin-left: 5px;
+
+	
+}
+
+
+
+#knowledge_images {
+	
+	
+}
+
+#knowledge_images img {
+	
+	margin-top: 10px;
+	border: 1px solid #d5d5d5;
+
+	
+}
+
+#knowledge_images img:hover {
+	
+
+	border: 1px solid #004ee3;
+	
+}
+
+#knowledge_article {
+	
+	font-size: 80%;
+	padding: 10px 30px 30px 30px;
+	line-height: 20px;
+	
+}
+
+#knowledge_article h2 {
+	
+	width: 400px;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	color: #004ee3;
+	font-weight: 100;
+	font-size: 180%;
+	
+}
+
+#knowledge_article h3 {
+	
+	font-weight: bolder;
+	font-size: 120%;
+	padding-top: 6px;
+	padding-bottom: 0;
+	color: #004ee3;
+
+	
+}
+
+#knowledge_article p {
+	
+	padding: 10px 0;
+	
+}
+
+#knowledge_article ol {
+	
+	padding: 10px 40px;
+
+	
+}
+
+#knowledge_article ol li {
+	
+	color: #004ee3;	
+		
+}
+
+#knowledge_article table {
+	
+	border: 1px solid #5183E3;
+	
+}
+
+#knowledge_article td {
+	
+	text-align: center;
+
+	
+}
+
+.TRh {
+	
+	background: #004ee3;	
+	font-weight: bold;
+	color: #fff;
+	
+}
+
+.TRo {
+	
+	
+}
+
+.TRe {
+	
+	background: #5183E3;	
+	margin: 0;
+	color: #fff;
+}
+
+#knowledge_article blockquote {
+	
+	font-weight: bold;
+	padding: 20px;
+	color: #004ee3;
+	border: 2px dashed #004ee3;
+	
+}
+
+#knowledge_article ul {
+	
+	padding: 10px 40px;
+	
+}
+
+#knowledge_article li {
+	
+	
+	
+}
