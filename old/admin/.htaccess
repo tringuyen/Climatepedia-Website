@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "UCLA Admin"
+AuthUserFile "/home/virtus/.htpasswds/public_html/climatepedia.org/admin/passwd"
+require valid-user

@@ -1,0 +1,39 @@
+<?php 
+
+// Set variables
+
+$title = "About Nuclear Energy | Climatepedia.org";
+$page_title = "Nuclear Energy";
+
+
+// Load templates
+
+include ("/home/alex/webdev/site1/newclimate/inc.nav.php/inc.header.php");
+include ("/home/alex/webdev/site1/newclimate/knowledge-base/inc.knowledge.php");
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+<?php
+
+
+
+include ("/home/alex/webdev/site1/newclimate/inc.nav.php/inc.footer.php");
+
+
+
+
+?>

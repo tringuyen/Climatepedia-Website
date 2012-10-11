@@ -1,0 +1,173 @@
+
+input:focus {
+	
+	
+-moz-box-shadow: inset 0 0 3px #004ee3;
+-webkit-box-shadow: inset 0 0 3px #004ee3;
+box-shadow: inner 0 0 3px #004ee3;
+
+	
+}
+
+#admin_command h1 {
+	
+	padding-bottom: 20px;
+	color: #004ee3;
+	font-weight: 900;
+
+	
+}
+
+#admin_actions {
+	
+	height: 75px;
+	
+}
+
+#admin_actions ul {
+	
+	padding-left: 30px;
+	
+}
+
+.generic_admin_button:hover {
+	
+	cursor: pointer;
+	text-decoration: none;
+	background: url(images/admin-buttons-bg-active.png) repeat-x;
+	color: #fff !important;
+	border: 1px solid #5c8ce3 !important;
+	text-shadow: #1f62e3 1px 1px;
+	font-weight: bold;
+	
+}
+
+
+/* group-specific rules */
+
+#admin_group {
+	
+	float: left;
+	
+}
+
+#admin_group label {
+	
+	margin-top: 10px;
+
+}
+
+#admin_group textarea {
+	
+	margin-top: -5px;
+	
+}
+
+.textarea_wrapper {
+	
+	float: left;
+	
+}
+
+.textarea_info {
+	
+	float: left;
+	clear: left;
+	font-size: 70%;
+	color: #00a6bf;
+	padding: 1px 0 5px 0;
+
+
+}
+
+.choose_group_link {
+	
+	float: left;
+	clear: left;	
+	color: #004ee3;
+	line-height: 25px;
+	padding: 5px 0;
+	
+}
+
+.choose_group_date {
+	
+	float: left;
+	font-size: 70%;
+	line-height: 25px;
+	padding: 5px 10px;
+	
+}
+
+
+.blog_tag_edit {
+	
+	float: left;
+	clear: left;
+	line-height: 40px;
+	padding: 5px 0;
+	
+}
+
+.blog_tag_edit a {
+	
+	color: #00a6bf;
+	padding-right: 10px;
+	
+}
+
+.choose_post_link {
+	
+	float: left;
+	clear: left;	
+	color: #00a6bf;
+	line-height: 25px;
+	padding: 5px 0;
+	
+}
+
+.choose_post_date {
+	
+	float: left;
+	font-size: 70%;
+	line-height: 25px;
+	padding: 5px 10px;
+	
+}
+
+/* Editing images CSS */
+
+#editing_images {
+	
+	float: left;
+	clear: left;
+	
+}
+
+#editing_images img {
+	
+	width: 160px;
+	border: 1px solid #d5d5d5;
+	float: left;
+	clear: left;	
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#editing_images a {
+	
+	float: left;
+	clear: left;
+
+	
+}
+
+#editing_images p {
+	
+	float: left;
+	margin-top: 5px;
+	line-height: 32px;
+	
+}
+
+

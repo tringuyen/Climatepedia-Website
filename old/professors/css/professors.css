@@ -1,0 +1,110 @@
+#content {
+	
+	width: 970px;
+	height: 1000px;
+	border: 5px solid #171717;
+	background: #eaeae7;
+}
+
+#pagetitle {
+	
+	width: 100%;
+	height: 80px;
+	background: url(images/titlebg.png);
+	color: #fff;	
+}
+
+#pagetitle h1 {
+
+	font-family: verdana;
+	font-size: 200%;
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+
+#map_canvas {
+	
+	height: 500px;
+	width: 100%;
+	border-top: 5px solid #171717;
+	border-bottom: 5px solid #171717;
+	
+}
+
+#infowindow {
+	
+
+	top: 500px;
+	
+} 
+
+#list {
+	
+	height: 500px;
+	width: 100%;
+	background:  url(http://www.climatepedia.org/css/images/fadebg.png) top repeat-x;
+	
+}
+
+table {
+	
+	width: 100%;
+
+	
+}
+
+#header {
+	
+	background: #2040ab;
+	color: #eee;
+	font-weight: bold;
+	font-size: 130%;
+
+	
+}
+
+tr {
+	
+	line-height: 25px;
+	height: 25px;
+	text-align: center;
+}
+
+.professor {
+	
+	font-size: 110%;
+	
+}
+
+.TRo {
+	
+	background: #5f7cdf;
+
+	
+}
+
+.TRe {
+	
+	background: #90a8fb;
+	
+}
+
+.professor:hover {
+	
+	background: #2040ab;
+
+		
+		
+	}
+	
+
+#footer {
+	
+	width: 100%;
+	height: 200px;
+	background: #0b0b0b;
+	
+}

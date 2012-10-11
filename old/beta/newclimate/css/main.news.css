@@ -1,0 +1,535 @@
+a {
+	
+	color: #d1242c;
+	font-weight: 900;
+	
+}
+
+#sub_header2 {
+	
+	background: #fff;
+	
+}
+
+
+
+#middle {
+	
+	border-left: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #bbb;
+	padding-top: 0;
+	
+}
+
+
+
+#focus_bg {
+	
+	position: absolute;
+	width: 30%;
+	height: 60px;
+	top: 56px;
+	right: 0;
+	background:url(/beta/newclimate/css/images/focus-bg-orange.png) repeat-x;
+	z-index: 0;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #fe828b;
+
+}
+
+#focus_bar {
+	
+	margin-top: -30px;
+	float: right;
+	position: relative;
+	width: 799px;
+	height: 60px;
+	background:url(/beta/newclimate/css/images/focus-bg-orange.png) repeat-x;
+	z-index: 1;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #fe4653;
+	border-top: 1px solid #fe828b;
+
+	
+}
+
+#focus_title {
+	
+	color: #fff;
+	line-height: 60px;
+	padding-left: 20px;
+	font-weight: bolder;
+
+	text-shadow: #750809 1px 1px;
+	font-size: 140%;
+	float: left;
+
+}
+
+#news_topics {
+	
+	padding-top: 0px;
+	width: 170px;
+	margin-right: 10px;
+}
+
+#news_topics p {
+	
+	color: #333;
+	font-size: 70%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 5px;
+	text-align: left;
+	margin-right: 11px;
+	float: right;
+	clear: right;
+	width: 160px;
+	
+	
+}
+
+
+#news_topics ul {
+	
+	list-style-type: none;
+	padding-right: 10px;
+	float: left;
+	clear: left;
+	padding-bottom: 40px;
+	line-height: 22px;
+	
+}
+
+#news_topics li {
+	
+	float: left;
+	clear: left;
+	text-align: left;
+}
+
+#news_topics a {
+	
+	color: #CC2C26;
+
+	
+	font-size: 70%;
+	
+}
+
+
+#news_command {
+	
+	width: 100%;
+	float: left;
+	clear: left;
+	height: 60px;
+	background: #f1f1f1;
+	border-bottom: 1px solid #d5d5d5;
+	display: none;
+	
+}
+
+#news_feed_wrapper {
+	
+	width: 100%;
+	height: 1000px;
+	float: left;
+	clear: left;
+
+	
+}
+
+
+
+
+#focus_sort {
+	
+	display: block;
+	height: 30px;
+	width: 100px;
+	position: relative;
+	float: right;
+	margin-top: 13px;
+	margin-left: 28px;
+	
+}
+
+#feed_sort_button {
+	
+	
+	display: block;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/beta/newclimate/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #777;
+	border-right: 1px solid #555;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	color: #666;
+	font-weight: bold;
+	font-size: 75%;
+
+
+
+
+
+	
+	
+}
+
+#feed_sort_button:hover, #focus_feedback:hover {
+	
+	text-decoration: none;
+	background: url(/beta/newclimate/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #d5d5d5;
+	text-shadow: #7E9F5F 1px 1px;
+
+
+
+}
+
+#feed_sort_button.feed_sort_button_active {
+	
+	text-decoration: none;
+	background: url(/beta/newclimate/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #fff;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+#feed_sort_button:active {
+	
+	text-decoration: none;
+
+	
+}
+
+
+#feed_sort_button img {
+	
+	padding-left: 3px;
+	padding-bottom: 2px;
+	
+}
+
+
+#feed_sort_wrapper {
+	
+	position: absolute;
+	top: 31px;
+	right: -2px;
+	bottom: -1px;
+	width: 860px;
+	display: none;
+
+	
+}
+
+#feed_sort_list {
+	
+	background: #9ecd76;
+	border: 1px solid #fff;
+	float: right;
+	clear: right;
+	width: 100px;
+}
+
+#feed_sort_list ul {
+	
+	list-style-type: none;
+	
+}
+
+#feed_sort_list li {
+	
+	width: 100px;
+	text-align: center;
+	padding: 5px 0;
+		
+}
+
+#feed_sort_list a {
+
+
+	color: #fff;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+
+
+
+#focus_feedback {
+	
+	display: block;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/beta/newclimate/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #777;
+	border-right: 1px solid #555;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	float: right;	
+	color: #666;
+	font-weight: bold;
+	font-size: 75%;
+	margin-top: 13px;
+	margin-left: 5px;
+
+	
+}
+
+#news_content {
+	
+	float: left;
+	clear: left;
+	padding: 0 20px 20px 20px;
+	
+}
+
+#news_intro {
+	
+	font-size: 80%;
+	color: #999;
+	padding-bottom: 0;
+	padding-top: 6px;
+	
+}
+
+.news_entry {
+	
+	float: left;
+	clear: left;
+	padding: 0;
+	margin: 10px 0;
+
+	width: 588px;
+}
+
+.news_title {
+	
+	float: left;
+	clear: left;
+	padding-bottom: 3px;
+	margin-bottom: 7px;
+	font-size: 100%;
+	border-bottom: 1px solid #d5d5d5;
+	width: 588px;
+
+
+}
+
+.news_title a {
+	
+	font-size: 100%;
+	color: #d1242c;
+	font-weight: bolder;
+
+
+	
+}
+
+.news_meta {
+	
+	float: left;
+	clear: left;
+	margin-bottom: 5px;
+	font-size: 70%;
+	color: #999;
+	
+}
+
+.news_source {
+	
+
+	color: #333;
+	font-weight: bold;
+	
+	
+}
+
+.news_date {
+	
+
+	
+}
+
+.news_description {
+	
+	float: left;
+	clear: left;
+	font-size: 80%;
+	
+	
+}
+
+.news_description p {
+	
+	padding: 10px 0;
+	float: left;
+	clear: left;
+}
+
+.feedflare {
+	
+	float: left;
+	clear: left;
+	padding-top: 5px;
+	
+}
+
+.continue_reading {
+	
+	float: left;
+	clear: left;
+	font-weight: lighter;
+	font-size:  10px;
+	padding: 10px 0 0 0;
+	
+}
+
+
+/* code specifically for Yale News 360 images */
+
+.imageleft {
+	
+	float: left;
+	clear: left;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	font-size: 80%;
+	
+}
+
+.imageright {
+	
+	float: right;
+	clear: right;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	font-size: 80%;
+	
+}
+
+#images_nasa {
+	
+	margin-top: 10px;
+	
+}
+
+#images_nasa img {
+	
+	width: 152px;
+	padding: 0;
+	border: 1px solid #d5d5d5;
+	margin: 2px 0 5px 0;
+
+}
+
+
+#images_nasa img:hover {
+	
+	border: 1px solid #ff6323;
+	
+}
+	
+#images_nasa p {
+	
+	padding-bottom: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+	width: 154px;
+	color: #333;
+	padding-left: 2px;
+	padding-right: 2px;
+
+}
+
+
+
+#images_ng img {
+	
+	width: 152px;
+	padding: 0;
+	border: 1px solid #d5d5d5;
+	margin: 2px 0 5px 0;
+
+}
+
+
+#images_ng img:hover {
+	
+	border: 1px solid #ff6323;
+	
+}
+	
+#images_ng p {
+	
+	padding-bottom: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+	width: 154px;
+	color: #333;
+	padding-left: 2px;
+	padding-right: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+#images_gallery_link {
+	
+	padding-left: 10px;
+	
+}
+
+#pages_nav {
+	
+	float: left;
+	clear: left;
+	max-width: 588px;
+	
+}
+
+#pages_nav a {
+	
+	float: left;
+	clear: none;	
+	text-decoration: underline;
+	padding: 0 5px;
+}
+
+#pages_nav p {
+	
+	float: left;
+	clear: left;
+	padding-right: 5px;
+	margin-right: 5px;
+	
+}
+
+
+
+
+
+

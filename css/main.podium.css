@@ -1,0 +1,523 @@
+a {
+	
+	color: #6d00bb;
+
+
+
+
+	
+}
+
+#sub_header2 {
+	
+	background: #fff;
+	
+}
+
+
+
+#middle {
+	
+	border-left: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #bbb;
+	padding-top: 6px;
+	min-height: 1000px;
+
+	
+}
+
+
+
+#focus_bg {
+	
+	position: absolute;
+	width: 30%;
+	height: 60px;
+	top: 56px;
+	right: 0;
+	background:url(/css/images/focus-bg-purple.png) repeat-x;
+	z-index: 0;
+	border-bottom: 1px solid #444;
+	border-top: 1px solid #ad3aff;
+
+}
+
+#focus_bar {
+	
+	margin-top: -30px;
+	float: right;
+	position: relative;
+	width: 799px;
+	height: 60px;
+	background:url(/css/images/focus-bg-purple.png) repeat-x;
+	z-index: 1;
+	border-bottom: 1px solid #444;
+	border-left: 1px solid #9500ff;
+	border-top: 1px solid #ad3aff;
+
+	
+}
+
+#focus_title {
+	
+	color: #fff;
+	line-height: 60px;
+	padding-left: 20px;
+	font-weight: bolder;
+
+	text-shadow: #260041 1px 1px;
+	font-size: 140%;
+	float: left;
+
+}
+
+#focus_feedback {
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #444;
+	border-right: 1px solid #333;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	float: right;	
+	color: #555;
+	font-weight: bold;
+	font-size: 75%;
+	margin-top: 13px;
+	margin-left: 5px;
+
+	
+}
+
+#focus_sort {
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	position: relative;
+	float: right;
+	margin-top: 13px;
+	margin-left: 28px;
+	
+}
+
+#media_sort_button {
+	
+	
+	display: block;
+	height: 30px;
+	width: 110px;
+	line-height: 30px;
+	text-align: center;
+	background: url(/css/images/admin-buttons-bg.png) repeat-x;
+	border-bottom: 1px solid #555;
+	border-right: 1px solid #333;	
+	border-left: 1px solid #EDEDED;
+	border-top: 1px solid #EDEDED;	
+	color: #555;
+	font-weight: bold;
+	font-size: 75%;
+
+}
+
+#media_sort_button:hover, #focus_feedback:hover {
+	
+	text-decoration: none;
+	background: url(/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #d5d5d5;
+	text-shadow: #7E9F5F 1px 1px;
+
+
+
+}
+
+#media_sort_button.media_sort_button_active {
+	
+	text-decoration: none;
+	background: url(/css/images/knowledge-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #fff;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+#media_sort_button:active {
+	
+	text-decoration: none;
+
+	
+}
+
+
+#media_sort_button img {
+	
+	padding-left: 3px;
+	padding-bottom: 2px;
+	
+}
+
+
+#media_sort_wrapper {
+	
+	position: absolute;
+	top: 31px;
+	right: -2px;
+	bottom: -1px;
+	width: 860px;
+	display: none;
+
+	
+}
+
+#media_sort_list {
+	
+	background: #9ecd76;
+	border: 1px solid #fff;
+	float: right;
+	clear: right;
+	width: 110px;
+}
+
+#media_sort_list ul {
+	
+	list-style-type: none;
+	
+}
+
+#media_sort_list li {
+	
+	width: 110px;
+	text-align: center;
+	padding: 5px 0;
+		
+}
+
+#media_sort_list a {
+
+
+	color: #fff;
+	text-shadow: #7E9F5F 1px 1px;
+	
+}
+
+
+#professor_nav {
+	
+	padding-top: 0px;
+	width: 170px;
+	margin-right: 10px;
+}
+
+#professor_nav p {
+	
+	color: #333;
+	font-size: 70%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 5px;
+	text-align: left;
+	margin-right: 11px;
+	float: right;
+	clear: right;
+	width: 160px;
+	
+	
+}
+
+
+#professor_nav ul {
+	
+	list-style-type: none;
+	padding-right: 10px;
+	float: left;
+	clear: left;
+	padding-bottom: 40px;
+	line-height: 22px;
+	
+}
+
+#professor_nav li {
+	
+	float: left;
+	clear: left;
+	text-align: left;
+}
+
+#professor_nav a {
+	
+	color: #6d00bb;
+	font-weight: bold;
+	font-size: 70%;
+	
+}
+
+
+
+
+
+
+/* post list styling */
+
+
+
+#podium_content {
+	
+	float: left;
+	clear: left;
+	padding: 0 20px 20px 20px;
+	width: 590px;
+	
+}
+
+.post_entry {
+	
+	width: 590px;
+	padding-bottom: 30px;
+	
+}
+
+.post_entry h2 {
+	
+
+	padding-bottom: 3px;
+	margin-left: 100px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #d5d5d5;
+	width: 494px;
+
+	
+}
+
+.listheader {
+	
+	font-size: 120%;
+	
+}
+
+.postheader {
+	
+	font-size: 150%;
+	
+}
+
+
+.post_entry h2 a {
+	
+	color: #6d00bb;
+	font-weight: 600;
+	
+}
+
+.entry_summary {
+	
+	font-size: 80%;
+	
+}
+
+.professor_profile {
+	
+
+	padding: 2px;
+	margin-right: 14px;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 4px;
+	
+
+	
+}
+
+.entry_meta {
+	
+	font-size: 70%;
+	padding-bottom: 10px;	
+}
+
+.entry_professor {
+	font-weight: bold;
+	
+}
+
+.entry_university {
+	
+
+	color: #6d00bb;
+}
+
+.entry_date {
+	
+	color: #999;
+	padding-left: 5px;
+	
+}
+
+.continue_link {
+	
+	font-size: 80%;
+	padding-top: 10px;
+	
+}
+
+#section_note {
+	
+	color: #999 !important;
+	padding-bottom: 10px;
+	font-size: 80%;
+	
+}
+
+.normalPara {
+	
+	padding: 10px 0;
+	font-size: 80%;
+	
+}
+
+#podium_disclaimer {
+	
+	text-align: center;
+	line-height: 17px!important;
+	float: left;
+	clear: left;
+	padding-top: 15px;
+	
+}
+
+.profile_entry {
+	
+	float: left;
+	clear: left;
+	padding: 0;
+	
+}
+
+
+.professor_header {
+	
+	margin-left: 0!important;
+	color: #6d00bb;
+	font-weight: 600;
+	width: 590px!important;
+	
+}
+
+.professor_image {
+
+	padding: 2px;
+	border: 1px solid #d5d5d5;
+	margin: 10px 10px 10px 0;
+	max-width: 250px;
+	
+}
+
+.professor_bio {
+	
+	font-size: 80%;
+	padding: 0;
+}
+
+.profile_header {
+	
+	color: #6d00bb;
+	font-weight: 900;
+	padding-bottom: 3px;
+	font-size: 80%;
+	margin-top: 15px;
+	
+}
+
+.historyheader {
+	
+	font-size: 110%;
+
+	width: 590px;
+	padding-top: 5px;
+}
+
+.historyheader a {
+	
+	font-weight: 100!important;
+	
+}
+
+#profile_cv h2 {
+	
+	color: #6d00bb;
+	font-size: 90%;
+	margin-left: 0!important;
+	border: 0 !important;	
+	width: 590px!important;
+	font-weight: 100;
+	border-bottom: 1px solid #d5d5d5!important;
+	padding-top: 10px;
+	
+}
+
+#profile_cv p {
+	
+	padding: 5px 0;
+	
+}
+
+.historydate {
+	
+	font-size: 80%;
+	color: #999;
+	font-weight: 100;
+	
+}
+
+.profile_info {
+	
+	font-weight: 100;
+	color: #333;
+	padding-left: 3px;
+	
+}
+
+.professor_list_entry {
+	
+	padding: 13px 0;
+	float: left;
+	clear: left;
+
+}
+
+.professor_list_entry h2 {
+	
+	width: 590px;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 3px;
+	margin-bottom:7px;
+	font-size: 120%;
+	
+}
+
+.professor_list_entry h2 a {
+	
+
+	font-weight: 600;
+	color: #6d00bb;
+	
+	
+}
+
+.sidebar_image img {
+	
+	width: 160px;
+	border: 1px solid #d5d5d5;
+		
+}
+
+.sidebar_image img:hover {
+	
+	border: 1px solid #6d00bb;
+	
+}

@@ -1,0 +1,199 @@
+
+/* Global CSS Rules */
+
+
+/* CSS3 way to make full-sized background from one image
+
+html { 
+
+	background: url(http://www.bruinstudios.com/css/images/blueearthspace2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; }
+	
+*/
+
+
+body {
+font-family:Verdana, Helvetica, sans-serif;
+color:#000;
+background:#010412 url(http://www.bruinstudios.com/css/images/blueearthspace2.jpg);
+background-repeat:no-repeat;
+background-position:bottom center;
+background-attachment:fixed;
+font-size:small;
+font-weight:100;
+min-width:910px;
+height: 100%;
+margin:10px 25px 25px
+}
+
+#wrapper {
+width:910px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+overflow:hidden;
+background: url(http://www.bruinstudios.com/css/images/transparency2.png);
+}
+
+#navbar {
+height:65px;
+width:960px
+}
+
+#logopic {
+float:left;
+border:none;
+height: 70px;
+
+}
+
+* {
+margin:0;
+padding:0
+}
+
+
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;
+	margin: 0;
+	float: left;
+	width: 700px;
+	background: #222;
+	font-size: 1em;
+	background: url(images/topnav_bg.gif) repeat-x;
+	font-weight: 900;
+	letter-spacing: -1px;
+	
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 22px 0 22px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+	cursor: pointer;
+	
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #d5d5d5;
+	display: block;
+	text-decoration: none;
+	float: left;
+	cursor: pointer;
+	text-transform: uppercase;
+f	font-weight: 900;
+}
+ul.topnav li a:hover{
+	background: url(images/topnav_hover.gif) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(images/subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	text-transform: none;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-transform: none;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(images/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+	text-transform: none;
+	font-weight: 500;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(images/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+#locationbar {
+float:left;
+width:374px;
+height:35px;
+background:url(http://www.bruinstudios.com/css/images/lbbg.gif);
+text-indent:5px;
+font-size:10px;
+color:#00B2EE;
+line-height:35px
+}
+
+a:link {
+color:#00B2EE;
+text-decoration:none
+}
+
+a:visited {
+color:#00B2EE;
+text-decoration:none
+}
+
+#searchbar {
+float:left;
+width:321px;
+height:35px;
+background:url(http://www.bruinstudios.com/css/images/lbbg.gif);
+padding-right:10px
+}
+
+#searchbox {
+background:url(http://www.bruinstudios.com/css/images/searchbox.gif) no-repeat center;
+width:229px;
+height:35px;
+float:right;
+display:block
+}
+
+#searchbtn {
+background:url(http://www.bruinstudios.com/css/images/searchbtn.gif) no-repeat center;
+width:80px;
+height:35px;
+float:right;
+display:block;
+margin-left:2px
+}
+
+
+
+#pagecontent {
+	
+	width: 960px;
+	background: url(http://www.bruinstudios.com/css/images/transparency2.png);
+	height: 700px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 520px;
+	clear: both;
+	float: left;
+	min-width: 960px;
+	
+}
+
+#title h2 {
+	
+	font-size: 200%;
+	color: white;
+	
+}

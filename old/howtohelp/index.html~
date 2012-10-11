@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Climate</title>
+<link rel="stylesheet" type="text/css" href="css/blog.css" />
+
+
+<script type="text/javascript" src="http://www.bruinstudios.com/scripts/jquery-1.4.4.min.js"></script><script type="text/javascript" src="http://www.bruinstudios.com/scripts/dropdown.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+
+<div id="wrapper">
+<div id="navbar">
+<div id="logo">
+<a href="#" ><img src="http://www.bruinstudios.com/css/images/logo4layers.gif" alt="Climate Change Arbiters" id="logopic"/></a>
+
+</div>
+
+
+
+<ul class="topnav">
+    <li>
+    	<a href="/home">Home</a>
+    	<ul class="subnav">
+            <li><a href="/discussion">Discussion</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/media">Media</a></li>
+				<li><a href="/howtohelp">How to help</a></li>          
+        </ul>
+    </li>
+    <li>
+        <a href="/about">About</a>
+        <ul class="subnav">
+            <li><a href="/climate_arbiters">Climate Arbiters</a></li>
+            <li><a href="/american_organizations">U.S. Organizations</a></li>
+            <li><a href="/world_organizations">World Organizations</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/professors">Professors</a>
+        <ul class="subnav">
+            <li><a href="/professors/involvement">How to Get Involved</a></li>
+            <li><a href="/worldwide_network">Worldwide Network</a></li>
+        </ul>
+    </li>
+    <li><a href="/climate101">Climate 101</a>
+    <ul class="subnav">
+            <li><a href="#">Global Warming</a></li>
+            <li><a href="#">Greenhouse</a></li>
+            <li><a href="#">Major Organizations</a></li>
+        </ul>
+    </li>
+    <li><a href="/contact">Connect</a>
+    <ul class="subnav">
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">RSS Feed</a></li>
+        </ul>
+    
+    </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="locationbar">
+<a href="#" name="locationbar">Location</a>: 
+<a href="#" >Home  >  Climate Topics  >  Greenhouse Gases</a>
+</div>
+<div id="searchbar">
+<div id="searchbtn"></div><div id="searchbox"></div>
+</div>
+
+</div>
+
+<div id="title"><h2>Under Construction</h2></div>
+
+
+<div id="pagecontent">
+</div>
+
+
+<div id="footer">
+
+<p>FOOTER</p>
+
+</div>
+
+</div>
+
+
+</body>
+
+
+
+
+</html>
+

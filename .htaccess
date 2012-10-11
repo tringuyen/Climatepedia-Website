@@ -1,0 +1,72 @@
+RewriteEngine On
+
+
+#
+# Internally rewrite search engine friendly static URL to dynamic filepath and query
+# News rewrites
+RewriteRule ^news/(.*)/page/(.*) /news.php?keyword=$1&page=$2
+RewriteRule ^news/(.*) /news.php?keyword=$1
+
+# Blogs internal rewrites
+RewriteRule ^blogs/page/(.*) /blogs.php?page=$1
+RewriteRule ^blogs/post/(.*) /blogs.php?postid=$1
+RewriteRule ^blogs/sort/(.*) /blogs.php?sortmethod=$1
+RewriteRule ^blogs/sort/(.*)/page/(.*) /blogs.php?sortmethod=$1&page=$2
+
+# Podium internal rewrites
+RewriteRule ^podium/network/page/(.*)/sort/(.*) /podium.php?directory=all&page=$1&sort=$2
+RewriteRule ^podium/network/sort/(.*) /podium.php?directory=all&sort=$1
+RewriteRule ^podium/network/page/(.*) /podium.php?directory=all&page=$1
+RewriteRule ^podium/network/(.*) /podium.php?directory=single&professor=$1
+RewriteRule ^podium/network /podium.php?directory=all
+
+RewriteRule ^podium/page/(.*) /podium.php?page=$1
+RewriteRule ^podium/sort/(.*) /podium.php?sortmethod=$1
+RewriteRule ^podium/sort/(.*)/page/(.*) /podium.php?sortmethod=$1&page=$2
+RewriteRule ^podium/(.*) /podium.php?posturl=$1
+
+
+# Media internal rewrites
+RewriteRule ^media/album/page/(.*) /media.php?album=single&page=$1
+RewriteRule ^media/album/(.*)/(.*) /media.php?type=single&album=$1&url=$2
+RewriteRule ^media/album/(.*) /media.php?type=single&album=$1
+RewriteRule ^media/sort/(.*) /media.php?sort=$1
+
+
+# Organization internal rewrites
+RewriteRule ^organization/(.*) /organization.php?url=$1
+
+
+# Internally rewrite extensionless URL to corresponding .php
+# file unless the URL exists as a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(([^/]+/)*[^.]+)$ $1.php [L]
+
+#Redirects to www. version
+RewriteCond %{HTTP_HOST} ^climatepedia\.org
+RewriteRule (.*) http://www.climatepedia.org/$1 [R=301]
+
+# Externally redirect (only) direct client requests for .php URLs to extensionless URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /([^/]+/)*[^.#?\ ]+\.php([#?][^\ ]*)?\ HTTP/
+
+RewriteCond %{REQUEST_FILENAME} !^http://www.climatepedia.org/ucla-login.php
+RewriteRule ^(([^/]+/)*[^.]+)\.php http://www.climatepedia.org/$1 [R=301,L]
+
+# 2011 Redesign Redirects
+
+#redirect until home page is designed
+RewriteRule ^index http://www.climatepedia.org/about-the-greenhouse-effect
+
+RedirectMatch 301 ^/beta/newclimate/(.*) http://www.climatepedia.org/$1
+RedirectMatch 301 http://www.climatepedia.org/about http://www.climatepedia.org/organization/about-climatepedia
+RedirectMatch 301 http://www.climatepedia.org/blog/index.php http://www.climatepedia.org/blogs
+RedirectMatch 301 ^/climatepedia/climategate.php http://www.climatepedia.org/about-climategate
+RedirectMatch 301 ^/climatepedia/climatologist.php http://www.climatepedia.org/about-climatologist-careers
+RedirectMatch 301 ^/climatepedia/nuclear-energy.php http://www.climatepedia.org/about-nuclear-energy
+RedirectMatch 301 ^/climatepedia/sunspots.php http://www.climatepedia.org/about-sunspots
+RedirectMatch 301 ^/gallery http://www.climatepedia.org/media
+RedirectMatch 301 ^/professors http://www.climatepedia.org/podium
+
+
+
+

@@ -1,0 +1,403 @@
+#admin_logo {
+	
+	margin: 42px 0 0 10px;
+	width: 160px;
+	text-align: left;
+	color: #fff;
+	float: left;
+	font-weight: 800;
+	line-height: 19px;
+	font-size: 100%;
+
+}
+
+#admin_mascot {
+	
+	position: absolute;
+	top: 8px;
+	left: 127px;	
+	
+	
+}
+
+#logo_center {
+	
+
+
+	display: block;
+	font-weight: normal;
+
+}
+
+#admin_wrapper {
+	
+	width: 100%;
+		
+		
+}
+
+#admin_body {
+	
+	width: 960px;
+	margin: 0 auto;
+
+	
+}
+
+
+#admin_title {
+	
+		font-weight: lighter;
+		font-size: 150%;
+		padding-top: 20px;
+		width: 300px;
+		border-bottom: 1px solid #d5d5d5;
+
+	
+}
+
+
+.admin_header_button {
+	
+	height: 30px;
+	width: 90px;
+	background: url(images/admin-buttons-bg.png) repeat-x;
+	border: 1px solid #EDEDED;
+	color: #757575;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	margin: 47px 1px 0 0;
+
+	
+}
+
+.admin_header_button:hover {
+	
+	text-decoration: none;
+	color: #333;
+	background: url(images/admin-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #5c8ce3;
+	text-shadow: #1f62e3 1px 1px;
+}
+
+#knowledge_admin_button.admin_nav_active {
+	
+	text-decoration: none;
+	background: url(images/admin-buttons-bg-active.png) repeat-x;
+	color: #fff;
+	border: 1px solid #5c8ce3;
+	text-shadow: #1f62e3 1px 1px;
+}
+
+#news_admin_button.admin_nav_active {
+	
+	background: url(images/admin-buttons-bg-orange-active.png);
+	text-shadow: #750809 1px 1px;
+	border: 1px solid #fe4653;
+	color: #fff;
+}
+
+#blogs_admin_button.admin_nav_active {
+	
+	background: url(images/admin-buttons-bg-teal-active.png);
+	text-shadow: #2e636b 1px 1px;
+	border: 1px solid #5ac2d0;
+	color: #fff;
+}
+
+#podium_admin_button.admin_nav_active {
+	
+	background: url(images/admin-buttons-bg-purple-active.png);
+	text-shadow: #260041 1px 1px;
+	border: 1px solid #9500ff;
+	color: #fff;
+}
+
+#media_admin_button.admin_nav_active {
+	
+	background: url(images/admin-buttons-bg-pink-active.png);
+	text-shadow:  #9c004f 1px 1px;
+	border: 1px solid #db5db5;
+	color: #fff;
+}
+
+
+
+#main_admin_button {
+	
+	margin-left: 30px;
+}
+
+#podium_admin_button:hover {
+	
+	background: url(images/admin-buttons-bg-purple-active.png);
+	text-shadow: #260041 1px 1px;
+	border: 1px solid #9500ff;
+	color: #fff;
+	
+}
+
+#crowd_admin_button {
+	
+	
+}
+
+#news_admin_button {
+	
+	
+}
+
+#news_admin_button:hover {
+	
+	background: url(images/admin-buttons-bg-orange-active.png);
+	text-shadow: #750809 1px 1px;
+	border: 1px solid #fe4653;
+	color: #fff;
+	
+}
+
+#blogs_admin_button:hover {
+	
+	background: url(images/admin-buttons-bg-teal-active.png);
+	text-shadow: #2e636b 1px 1px;
+	border: 1px solid #5ac2d0;
+	color: #fff;
+
+}
+
+#media_admin_button:hover {
+
+	background: url(images/admin-buttons-bg-pink-active.png);
+	text-shadow:  #9c004f 1px 1px;
+	border: 1px solid #db5db5;
+	color: #fff;
+
+}
+
+#knowledge_admin_button {
+	
+	
+}
+
+
+#admin_left {
+	
+
+	float: left;
+	width: 180px;
+
+
+}
+
+
+#admin_actions {
+	
+	margin-top: 20px;
+	float: left;
+	width: 180px;
+	border: 1px solid #ADADAD;
+	background: #e9f3f3 url(images/admin-action-bg.png) repeat-x;
+
+}
+
+#admin_actions p {
+	
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	color: #444;
+	border-bottom: 1px solid #ADADAD;
+	background: url(images/admin-buttons-bg-35.png) repeat-x;
+	
+}
+
+#admin_actions ul {
+	
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 45px;
+
+}
+
+#admin_actions li {
+	
+	line-height: 30px;
+
+		
+}
+
+#admin_actions a {
+	
+	font-size: 100%;
+	font-weight: normal;
+	color: #444;
+
+
+
+}
+
+#admin_directions {
+	
+	margin-top: 20px;
+	float: left;
+	width: 180px;
+
+
+	border: 1px solid #ADADAD;
+	background: #e8f2f2;
+	
+}
+
+#directions_header {
+	
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	color: #444;
+	border-bottom: 1px solid #ADADAD;
+	background: url(images/admin-buttons-bg-35.png) repeat-x;
+	
+	
+}
+
+.directions_section {
+	
+	margin: 10px 10px 0 10px;
+	font-size: 80%;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 5px;
+	width: 90%;
+	float: left;
+	clear: left;
+	
+}
+
+.directions_reg {
+	
+	font-size: 70%;
+	padding: 10px;
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	
+}
+
+#admin_right {
+	
+	float: right;
+	width: 730px;
+	margin-top: 20px;
+
+	
+}
+/* This div is not in the knowledge section, instead there is new_article with its own styles in admin.knowledge.css */
+
+#admin_command {
+	
+	float: left;
+	
+}
+
+#admin_command input, #admin_command select, #admin_command textarea {
+	
+	float: left;
+	border: 1px solid #adadad;
+	line-height: 20px;
+	margin-top: 5px;
+	width: 470px;
+	font-size: 80%;
+	padding: 5px;
+	color: #333;
+	font-family: 'Open Sans', arian, sans-serif;
+}
+
+#admin_command input.input_clear {
+	
+	clear: left;
+	margin-top: -5px;
+	
+}
+
+
+#admin_command textarea {
+	
+	width: 620px;
+	height: 60px;
+
+}
+
+#admin_command form {
+	
+	float: left;
+	
+}
+
+#admin_command label {
+	
+	float: left;
+	clear: left;	
+	line-height: 40px;
+	padding-right: 10px;
+}
+
+.label_note {
+	
+	font-size: 70%;
+	color: #666;
+}
+
+#admin_command label.article_radio {
+	
+	width: 20px;
+	padding-right: 10px;
+	height: 20px;
+	line-height: 20px;
+
+	
+}
+
+#admin_command input.article_radio_input {
+	
+	width: 20px;
+	line-height: 40px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#admin_command #submit {
+	
+	margin-top: 30px;
+	
+}
+/* UI stuff */
+
+
+.generic_admin_button {
+	
+	margin-top: 20px;
+	color: #333;
+	font-size: 80%;
+	float: left;
+	clear: left;
+	width: 200px!important;
+	background:
+	height: 30px;
+	background: url(images/admin-buttons-bg.png) repeat-x;
+	border: 1px solid #ADADAD;
+	margin-bottom:30px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+
+
+

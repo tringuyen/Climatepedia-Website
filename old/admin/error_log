@@ -1,0 +1,60 @@
+[20-Mar-2011 19:30:40] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:32:25] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:36:11] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:38:15] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:43:32] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:49:44] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:51:55] PHP Parse error:  syntax error, unexpected '{' in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 19
+[20-Mar-2011 19:56:15] PHP Fatal error:  Function name must be a string in /home/virtus/public_html/climatepedia.org/admin/connect.php on line 11
+[20-Mar-2011 20:51:35] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/virtus/public_html/climatepedia.org/admin/index.php on line 45
+[20-Mar-2011 21:45:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not log you in.' in /home/virtus/public_html/climatepedia.org/admin/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 17
+[20-Mar-2011 21:54:42] PHP Parse error:  syntax error, unexpected T_ELSE in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 23
+[20-Mar-2011 21:56:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/virtus/public_html/climatepedia.org/admin/connect.php:16) in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 30
+[20-Mar-2011 22:32:17] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/virtus/public_html/climatepedia.org/admin/index.php on line 38
+[20-Mar-2011 22:35:30] PHP Fatal error:  Call to undefined function  alert() in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 40
+[20-Mar-2011 22:36:27] PHP Parse error:  syntax error, unexpected '<' in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 40
+[20-Mar-2011 22:36:58] PHP Parse error:  syntax error, unexpected '<' in /home/virtus/public_html/climatepedia.org/admin/auth.php on line 40
+[20-Mar-2011 22:46:02] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/virtus/public_html/climatepedia.org/admin/login.php on line 38
+[20-Mar-2011 23:14:39] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:15:02] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:15:08] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:15:10] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:15:12] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:15:14] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 11
+[20-Mar-2011 23:47:37] PHP Fatal error:  Call to a member function query() on a non-object in /home/virtus/public_html/climatepedia.org/admin/index.php on line 76
+[20-Mar-2011 23:48:41] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/virtus/public_html/climatepedia.org/admin/index.php on line 77
+[20-Mar-2011 23:51:30] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/virtus/public_html/climatepedia.org/admin/index.php on line 78
+[20-Mar-2011 23:54:30] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/virtus/public_html/climatepedia.org/admin/index.php on line 78
+[20-Mar-2011 23:54:31] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/virtus/public_html/climatepedia.org/admin/index.php on line 78
+[20-Mar-2011 23:55:07] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/virtus/public_html/climatepedia.org/admin/index.php on line 78
+[21-Mar-2011 00:09:38] PHP Fatal error:  Call to a member function query() on a non-object in /home/virtus/public_html/climatepedia.org/admin/index.php on line 64
+[21-Mar-2011 00:09:41] PHP Fatal error:  Call to a member function query() on a non-object in /home/virtus/public_html/climatepedia.org/admin/index.php on line 64
+[21-Mar-2011 00:09:59] PHP Fatal error:  Call to undefined method mysqli::fetch_array() in /home/virtus/public_html/climatepedia.org/admin/index.php on line 68
+[21-Mar-2011 00:15:36] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/virtus/public_html/climatepedia.org/admin/index.php on line 81
+[21-Mar-2011 00:17:05] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/virtus/public_html/climatepedia.org/admin/index.php on line 78
+[21-Mar-2011 00:17:05] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/virtus/public_html/climatepedia.org/admin/index.php on line 81
+[21-Mar-2011 00:17:38] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/virtus/public_html/climatepedia.org/admin/index.php on line 83
+[21-Mar-2011 00:18:47] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/virtus/public_html/climatepedia.org/admin/index.php on line 82
+[22-Mar-2011 18:44:32] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/virtus/public_html/climatepedia.org/admin/index.php on line 132
+[22-Mar-2011 18:44:51] PHP Parse error:  syntax error, unexpected '.' in /home/virtus/public_html/climatepedia.org/admin/index.php on line 132
+[22-Mar-2011 18:45:19] PHP Warning:  mysqli_result::fetch_array() expects parameter 1 to be long, object given in /home/virtus/public_html/climatepedia.org/admin/index.php on line 130
+[22-Mar-2011 19:17:15] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 143
+[22-Mar-2011 19:18:15] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 143
+[22-Mar-2011 19:18:16] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/virtus/public_html/climatepedia.org/admin/index.php on line 143
+[22-Mar-2011 19:18:48] PHP Parse error:  syntax error, unexpected $end in /home/virtus/public_html/climatepedia.org/admin/index.php on line 203
+[22-Mar-2011 19:40:29] PHP Parse error:  syntax error, unexpected $end in /home/virtus/public_html/climatepedia.org/admin/forum.php on line 207
+[22-Mar-2011 19:40:58] PHP Warning:  include(connect) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/virtus/public_html/climatepedia.org/admin/forum.php on line 160
+[22-Mar-2011 19:40:58] PHP Warning:  include(connect) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/virtus/public_html/climatepedia.org/admin/forum.php on line 160
+[22-Mar-2011 19:40:58] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'connect' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/virtus/public_html/climatepedia.org/admin/forum.php on line 160
+[22-Mar-2011 20:54:42] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 11
+[22-Mar-2011 21:02:30] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 11
+[22-Mar-2011 21:03:17] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 11
+[22-Mar-2011 21:05:31] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 11
+[22-Mar-2011 21:05:37] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 11
+[22-Mar-2011 21:42:06] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/virtus/public_html/climatepedia.org/admin/forum.php on line 137
+[01-Apr-2011 19:13:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/virtus/public_html/climatepedia.org/admin/connect.php:13) in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 17
+[01-Apr-2011 19:14:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/virtus/public_html/climatepedia.org/admin/connect.php:13) in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 17
+[01-Apr-2011 19:18:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/virtus/public_html/climatepedia.org/admin/connect.php:13) in /home/virtus/public_html/climatepedia.org/admin/create_reply.php on line 17
