@@ -1,0 +1,207 @@
+/*
+** Hero Item 
+*/
+#hero-item {
+	width: auto;
+	height: 295px;
+	border-top-style: solid;
+	border-color: #000000;
+	border-width: 5px;
+	margin-top: 15px;
+
+	background-color: #FD4323;
+}
+
+/*
+** Main containers
+*/
+
+#main-info-cont {
+	overflow: hidden;
+	width: 100%;
+}
+
+#misc-info-cont {
+	overflow: hidden;
+	width: 100%;
+}
+
+#feat-proj-cont {
+	width: 640px;
+	height: 400px;
+	margin-top: 15px;
+	float: left;
+
+	background-color: #023B47;
+}
+
+#updates-cont {
+	width: 290px;
+	height: 400px;
+	margin-top: 15px;
+	float: right;
+
+	background-color: #023B47;
+}
+
+.main-page-header {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main-updates {
+	color: #000000;
+}
+
+
+/*
+** "Latest Updates" Content
+*/
+.updates-content {
+	font-family: Arial;
+	font-size: 11px;
+	color: #9E9E9E;
+
+	margin-top: 10px;
+}
+
+.updates-grey-divider {
+	color: #9E9E9E;
+	width: 100%;
+	border-top-style: dotted;
+	border-width: 1px;
+
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+/*
+** Featured Projects Content
+*/
+.main-fp {
+	color: #3366CC;
+}
+
+.fp-item-cont {
+	width: auto;
+	height: auto;
+
+	margin-bottom: 15px;
+
+	background-color: #295E52
+}
+
+.fp-item-image {
+	border-width: 5px;
+	border-top-style: solid;
+	border-color: #000000;
+	width: auto;
+	height: 100px;
+
+	background-color: #FD4323;
+}
+
+.fp-item-header {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+    color: #000000;
+
+	margin-top: 8px;
+    margin-bottom: 0px;
+
+}
+
+.fp-item-text {
+	font-family: Arial;
+	font-size: 11px;
+    color: #000000;
+}
+
+/*
+** Page Dividers
+*/
+.main-grey-divider {
+	color: #9E9E9E;
+	width: 100%;
+	border-top-style: solid;
+	border-width: 2px;
+
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+.mid-page-divider {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*
+** Misc Items Content/Containers
+*/
+.misc-item-cont-left {
+	width: 256px;
+	height: auto;
+	float: left;
+
+	margin-left: 15px;
+
+	background-color: #023B47;
+}
+.misc-item-cont-center {
+	width: 256px;
+	height: auto;
+	float: left;
+
+	margin-left: 87px;
+	margin-right: 87px;
+
+	background-color: #023B47;
+}
+
+.misc-item-cont-right {
+	width: 256px;
+	height: auto;
+	float:	left;
+	margin-right: 15px;
+
+	background-color: #023B47;
+}
+
+.misc-item-image {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #9E9E9E;
+	width: 250px;
+	height: 125px;
+
+	background-color: #FD4323;
+}
+
+.misc-item-header {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 13px;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	clear: both;
+}
+
+.misc-item-text {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+
+	clear: both;
+}
+
+/*
+** "Latest Updates" Content
+*/
+.carousel-item {
+	height: 295px ;
+	width: 973px ;
+}

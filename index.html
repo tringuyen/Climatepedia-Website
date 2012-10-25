@@ -2,34 +2,64 @@
 
 <head>
 <title> Climatepedia </title>
-<link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="stylesheet" type="text/css" href="css/index.css"/>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
+
+<?php
+	$dbhost = "localhost"
+	$dbuser = "climatepedia"
+	$dbpwd = "2aJq5NNstWD7c7hN" 
+	$con = mysql_connect($dbhost, $dbuser, $dbpwd);
+	if (!$con)
+	{
+		die('Could not connect: ' . mysql_error());
+	}
+	  
+	// some code
+
+?>
 
 <div id="main-container">
 	<div id="main-content">
 		<!-- Main Logo -->
 		<div id="main-logo">
-
+			<a href="index.html"><img src="images/global/main_logo.jpg"></a>
 		</div>
 
 		<!-- Navigation Bar -->
 		<div id="nav-bar">
 			<ul id="nav-list" class="nav-links">
-				<li> <a href="#">ABOUT</a></li>
-				<li> <a href="#">PROJECTS</a></li>
-				<li> <a href="#">SIGNATORIES</a></li>
-				<li> <a href="#">GLOSSARY</a></li>
-				<li> <a href="#">CONTACT</a></li>
+				<li> <a href="about.html">ABOUT</a></li>
+				<li> <a href="projects.html">PROJECTS</a></li>
+				<li> <a href="signatories.html">SIGNATORIES</a></li>
+				<li> <a href="glossary.html">GLOSSARY</a></li>
+				<li> <a href="contact.html">CONTACT</a></li>
 			</ul>
 		</div>
 
 		<!-- Hero Item -->
 		<div id="hero-item">
-
+			<!-- Carousel -->
+			<div id="myCarousel" class="carousel slide">
+				<!-- Carousel items -->
+				<div class="carousel-innter">
+					<div class="active item">
+						<img class="carousel-item" src="images/hero_items/1_energy.jpg">
+						<div class="carousel-caption">
+							<h4> Solar Energy </h4>
+						</div>
+					</div>
+					<div class="item"></div>
+					<div class="item"></div>
+				</div>
+				<!-- Carousel Navigation -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div> 
 		</div>
 
 		<!-- Main Information -->

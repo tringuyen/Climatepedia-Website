@@ -26,15 +26,17 @@
 +-----------------------------------+
 | Hero_Items						|
 +-----------------------------------+
-| [PRIMARY] ID (tinyint unsigned)	| 
+| [PRIMARY] ID (smallint unsigned)	| 
 | Date (date)						|
 | Image_Link (varchar (250))		|
+| Thumbnail_Title (varchar (100))	|
+| Thumbnail_Text (Text)				|
 +-----------------------------------+
 
 +-----------------------------------+
 | Featured_Articles					|
 +-----------------------------------+
-| [PRIMARY] ID (tinyint unsigned)	|
+| [PRIMARY] ID (smallint unsigned)	|
 | Date (date)						|
 | Image_Link (varchar (250))		|
 | Title (varchar (250))				|
@@ -52,7 +54,7 @@
 +-----------------------------------+
 | Signatories						|
 +-----------------------------------+
-| [PRIMARY] ID (tinyint unsigned)	|
+| [PRIMARY] ID (smallint unsigned)	|
 | First_Name (varchar (100))		|
 | Last_Name (varchar (100))			|
 | Position (varchar (100))			|
@@ -60,13 +62,14 @@
 | Degree (varchar (100))			|
 | Webpage (varchar (150))			|
 | Statement (TEXT)					|
+| Image_Link (varchar (100))		|
 | Date_Added (date)					|
 +-----------------------------------+
 
 +-----------------------------------+
 | Glossary							|
 +-----------------------------------+
-| [PRIMARY] ID (tinyint unsigned)	|									
+| [PRIMARY] ID (smallint unsigned)	|									
 | Item_Name (varchar (250))			|									
 | Item_Text (TEXT)					|
 +-----------------------------------+									
