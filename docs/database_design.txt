@@ -63,6 +63,7 @@
 | Webpage (varchar (150))			|
 | Statement (TEXT)					|
 | Image_Link (varchar (100))		|
+| Area (TEXT)						|
 | Date_Added (date)					|
 +-----------------------------------+
 
@@ -73,3 +74,12 @@
 | Item_Name (varchar (250))			|									
 | Item_Text (TEXT)					|
 +-----------------------------------+									
+
++-----------------------------------+
+| Tweets							|
++-----------------------------------+
+| [PRIMARY] ID (smallint unsigned)	|									
+| Text (varchar (250))				|									
+| URL (varchar (250))				|
+| Image_Url (varchar (250))			|
++-----------------------------------+	
