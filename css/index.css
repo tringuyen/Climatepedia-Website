@@ -32,7 +32,7 @@
 	margin-top: 15px;
 	float: left;
 
-	background-color: #023B47;
+	/* background-color: #023B47; */
 }
 
 #updates-cont {
@@ -41,7 +41,7 @@
 	margin-top: 15px;
 	float: right;
 
-	background-color: #023B47;
+	/* background-color: #023B47; */
 }
 
 .main-page-header {
@@ -50,14 +50,15 @@
 	font-weight: bold;
 }
 
-.main-updates {
-	color: #000000;
-}
 
 
 /*
 ** "Latest Updates" Content
 */
+.main-updates {
+	color: #3366CC;
+}
+
 .updates-content {
 	font-family: Arial;
 	font-size: 11px;
@@ -89,7 +90,7 @@
 
 	margin-bottom: 15px;
 
-	background-color: #295E52
+	/* background-color: #295E52 */
 }
 
 .fp-item-image {

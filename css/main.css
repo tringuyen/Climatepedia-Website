@@ -6,6 +6,16 @@ body {
 	margin: 0px;
 	line-height: normal;
 }
+
+h3 {
+	color: #3366CC;
+	margin-bottom: 0px;
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
 /**
  **	Main Containers 
  **/
@@ -16,6 +26,7 @@ body {
 	padding: 3% 1% 3% 1%;
 	width: 1024px;
 	background-color: #FFFFFF;
+	min-height: 90%;
 }
 
 #main-content {
@@ -78,3 +89,11 @@ body {
 
 	background-color: #FD4323;
 }
+
+
+/**
+ **	Content
+ **/
+ #content {
+ 	padding-top: 20px;
+ }
