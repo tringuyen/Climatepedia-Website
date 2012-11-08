@@ -1,0 +1,7 @@
+ 	#
+    # URL Redirects using Rewrites
+    #
+    RewriteEngine On
+    RewriteRule ^profiles/([0-9]+)/ /profile.php?profile_id=$1
+    RewriteRule ^profile/([0-9]+)/^	/
+    RewriteRule ^glossary/([0-9]+)/ /terms.php?term_id=$1
