@@ -47,16 +47,31 @@
 		<div id="content">
 			<h3> List of Signatories </h3>
 			<HR/>
-
+			<table border="0" style="width: 100%">
 			<?php
-				$result = mysql_query("SELECT * FROM Signatories ORDER BY Date_Added ASC");
+				$result = mysql_query("SELECT * FROM Signatories ORDER BY First_Name ASC");
+				$column = 0;
 
 				while ($row = mysql_fetch_array($result))
 				{
-					echo '<p><a href="profiles/' . $row['ID'] . '/">' . $row['First_Name'] . ' ' . $row['Last_Name'] . '</a></p>'; 
+					if ($column == 0)
+					{
+						echo '<tr>';
+					}
+					echo '<td><p><a href="profiles/' . $row['ID'] . '/">' . $row['First_Name'] . ' ' . $row['Last_Name'] . '</a></p></td>'; 
+					if ($column == 2)
+					{
+						echo '</tr>';
+						$column = 0;
+					}
+					else
+					{
+						$column++;
+					}
 				}
 
 			?>
+			</table>
 		</div>
 </div>
 

@@ -1,7 +1,10 @@
 <html>
 
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <title> Climatepedia </title>
+
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -123,7 +126,7 @@
 	                        echo $row['title'];
 	                    echo '</div>';
 	                    echo '<div class="fp-item-text">';
-	                        echo $row['description'] . '<a href="' . $row['article_link'] . '">READ MORE</a>';
+	                    	echo $row['description'] . '<a href="' . $row['article_link'] . '">READ MORE</a>';
 	                    echo '</div>';
 					echo '</div>';
 
@@ -138,7 +141,7 @@
 	                        echo $row['title'];
 	                    echo '</div>';
 	                    echo '<div class="fp-item-text">';
-	                        echo $row['description'] . '<a href="' . $row['article_link'] . '">READ MORE</a>';
+	                    	echo $row['description'] . '<a href="' . $row['article_link'] . '">READ MORE</a>';
 	                    echo '</div>';
 					echo '</div>';
 					}
@@ -172,24 +175,24 @@
 
 						// Get since_id from database
 						$since_id = '1';
-						$result = mysql_query('SELECT ID FROM Tweets ORDER BY ID ASC LIMIT 1');
+						$result = mysql_query('SELECT ID FROM Tweets ORDER BY ID DESC LIMIT 1');
 						if ($row = mysql_fetch_array($result))
 						{
 							$since_id = $row['ID'];
 						}
 						// Make a request to Twitter for latest tweets
 						$code = $tmhOAuth->request('GET', $tmhOAuth->url('1.1/statuses/user_timeline'), 
-							array('screen_name' => 'Climatepedia', 'count' => '5', 'since_id' => $since_id));
+							array('screen_name' => 'Climatepedia', 'count' => '10', 'since_id' => $since_id));
 
 						if ($code == 200) {
-						  $results = json_decode($tmhOAuth->response['response'], true);
+						  $results = json_decode(utf8_decode($tmhOAuth->response['response']), true);
 
 						  // Add any new tweets from Twitter feed
 						  for($i = 0; $i < sizeof($results); ++$i)
 						  {
 						  	$res = $results[$i];
 						  	$id_str = mysql_real_escape_string($res['id_str']);
-						  	$text = mysql_real_escape_string($res['text']); 
+						  	$text = str_replace("'", "&apos;", $res['text']);
 						  	$url =  'http://twitter.com/' . $res['user']['id_str'] . '/status/' . $id_str;
 						  	$image_url =  mysql_real_escape_string($res['user']['profile_image_url']);
 						  	$result = mysql_query("INSERT INTO Tweets (ID, Text, URL, Image_Url)
@@ -198,9 +201,10 @@
 						} 
 
 						// Display all the 5 latest tweets
-						$result = mysql_query('SELECT * FROM Tweets ORDER BY ID ASC LIMIT 5');
+						$result = mysql_query('SELECT * FROM Tweets ORDER BY ID DESC LIMIT 5');
 						while ($row = mysql_fetch_array($result))
 						{
+							echo '<img src="' . $row['Image_Url'] . '">';
 							echo '<div class="updates-content">';
 							echo '<a href="' . $row['URL'] . '">' . $row['Text'] . '</a>';
 							echo '</div>';
@@ -222,34 +226,34 @@
 		<div id="misc-info-cont">
 			<!-- Misc Item #1 -->
 			<div class="misc-item-cont-left">
-				<div class="misc-item-image"></div>
+				<img class="misc-item-image" src="images/misc_items/photos.jpg">
 				<div class="misc-item-header main-fp">
 					PHOTO PROJECT
 				</div>
 				<div class="misc-item-text">
-					Lorem ipsum dolor   READ MORE
+					Pictures of people with their climate change thoughts, questions, or opinions.
 				</div>
 			</div>
 
-			<!-- Misc Item #1 -->
+			<!-- Misc Item #2 -->
 			<div class="misc-item-cont-center">
-				<div class="misc-item-image"></div>
+				<img class="misc-item-image" src="images/misc_items/tips.jpg">
 				<div class="misc-item-header main-fp">
 					TIPS
 				</div>
 				<div class="misc-item-text">
-					Lorem ipsum dolor   READ MORE
+					A list of conservation strategies ranging from energy to water.
 				</div>
 			</div>
 			
-			<!-- Misc Item #1 -->
+			<!-- Misc Item #3 -->
 			<div class="misc-item-cont-right">
-				<div class="misc-item-image"></div>
+				<img class="misc-item-image" src="images/misc_items/events.jpg">
 				<div class="misc-item-header main-fp">
 					Events at UCLA!
 				</div>
 				<div class="misc-item-text">
-					Lorem ipsum dolor   READ MORE
+					Check out upcoming Climatepedia events!
 				</div>
 			</div>
 		</div>

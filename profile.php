@@ -20,7 +20,7 @@
 <title> Climatepedia - Signatories </title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="stylesheet" type="text/css" href="css/signatories.css" />
+<link rel="stylesheet" type="text/css" href="css/profile.css" />
 
 
 </head>
@@ -50,17 +50,27 @@
 		<!-- Content
 		==================================================-->
 		<div id="content">
-			<h3> List of Signatories </h3>
-			<HR/>
-
 			<?php
-				$result = mysql_query("SELECT * FROM Signatories ORDER BY Date_Added ASC");
+				$result = mysql_query("SELECT * FROM Signatories WHERE ID = $profile_id");
+				$row = mysql_fetch_array($result);
+				echo '<h3>' . $row['First_Name'] . ' ' . $row['Last_Name'] . '</h3>';
+				echo '<HR/>';
+				echo '<div class="profile-content">';
+					echo '<img class="profile-img" src="' . $row['Image_Link'] . '">';
 
-				while ($row = mysql_fetch_array($result))
+					echo '<div class="profile-info">';
+					echo '<b>Institution</b>: ' . $row['Institution'] . '<br/><br/>';
+					echo '<b>Title</b>: ' . $row['Position'] . '<br/><br/>';
+					echo '<b>Degree</b> ' . $row['Degree'] . '<br/><br/>';
+					echo '<b>Expertise</b>: ' . $row['Area'] . '<br/><br/>';
+					echo '<b>Webpage</b>: <a href="' . $row['Webpage'] . '">' . $row['Webpage'] . '</a><br/><br/>';
+					echo '</div>';
+				echo '</div>';
+				echo '<br/>';
+				if ( !empty($row['Statement']) )
 				{
-					echo '<p><a href="profiles/' . $row['ID'] . '/">' . $row['First_Name'] . ' ' . $row['Last_Name'] . '</a></p>'; 
+					echo '<b>Summary</b>: ' . $row['Statement'] . '<br/>';
 				}
-
 			?>
 		</div>
 </div>

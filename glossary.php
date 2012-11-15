@@ -48,14 +48,30 @@
 			<h3> Climate Knowledge Terms </h3>
 			<HR/>
 
+			<table border="0" style="width: 100%">
 			<?php
 				$result = mysql_query("SELECT * FROM Glossary ORDER BY Item_Name ASC");
+				$column = 0;
 
 				while ($row = mysql_fetch_array($result))
 				{
-					echo '<p><a href="glossary/' . $row['ID'] . '/">' . $row['Item_Name'] . '</a></p>'; 
+					if ($column == 0)
+					{
+						echo '<tr>';
+					}
+					echo '<td><p><a href="glossary/' . $row['ID'] . '/">' . $row['Item_Name'] . '</a></p></td>'; 
+					if ($column == 2)
+					{
+						echo '</tr>';
+						$column = 0;
+					}
+					else
+					{
+						$column++;
+					}
 				}
 			?>
+			</table>
 		</div>
 </div>
 

@@ -20,7 +20,6 @@
 <title> Climatepedia - Glossary </title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="stylesheet" type="text/css" href="css/glossary.css" />
 
 
 </head>
@@ -50,16 +49,13 @@
 		<!-- Content
 		==================================================-->
 		<div id="content">
-			<h3> Climate Knowledge Terms </h3>
-			<HR/>
-
 			<?php
-				$result = mysql_query("SELECT * FROM Glossary ORDER BY Item_Name ASC");
-
-				while ($row = mysql_fetch_array($result))
-				{
-					echo '<p><a href="glossary/' . $row['ID'] . '/">' . $row['Item_Name'] . '</a></p>'; 
-				}
+				$result = mysql_query("SELECT * FROM Glossary WHERE ID = $term_id");
+				$row = mysql_fetch_array($result);
+				echo '<h3>' . $row['Item_Name'] . '</h3>';
+				echo '<HR/>';
+				echo $row['Item_Text'];
+				
 			?>
 		</div>
 </div>
