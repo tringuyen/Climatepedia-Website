@@ -63,8 +63,12 @@
 	font-family: Arial;
 	font-size: 11px;
 	color: #9E9E9E;
+	float: right;
+	width: 235px;
+	height: auto;
 
-	margin-top: 10px;
+	margin-top: 0px;
+	margin-left: 5px;
 }
 
 .updates-grey-divider {
@@ -148,7 +152,7 @@
 
 	margin-left: 15px;
 
-	background-color: #023B47;
+	/*background-color: #023B47;*/
 }
 .misc-item-cont-center {
 	width: 256px;
@@ -158,7 +162,7 @@
 	margin-left: 87px;
 	margin-right: 87px;
 
-	background-color: #023B47;
+	/*background-color: #023B47;*/
 }
 
 .misc-item-cont-right {
@@ -167,7 +171,7 @@
 	float:	left;
 	margin-right: 15px;
 
-	background-color: #023B47;
+	/*background-color: #023B47;*/
 }
 
 .misc-item-image {
@@ -175,7 +179,7 @@
 	border-style: solid;
 	border-color: #9E9E9E;
 	width: 250px;
-	height: 125px;
+	height: 160px;
 
 	background-color: #FD4323;
 }
