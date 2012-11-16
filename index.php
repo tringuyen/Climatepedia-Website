@@ -14,17 +14,9 @@
 <script src="js/twitter_feed.js"></script>
 
 <?php
-	$dbhost = "localhost";
-	$dbuser = "climatepedia";
-	$dbpwd = "2aJq5NNstWD7c7hN";
-	$con = mysql_connect($dbhost, $dbuser, $dbpwd);
-	if (!$con)
-	{
-		die('Could not connect: ' . mysql_error());
-	}
-	  
-	mysql_select_db("climatepedia_database", $con);
+	include ("inc.db.connection.php");
 ?>
+
 </head>
 
 <body>
@@ -204,7 +196,8 @@
 						$result = mysql_query('SELECT * FROM Tweets ORDER BY ID DESC LIMIT 5');
 						while ($row = mysql_fetch_array($result))
 						{
-							echo '<img src="' . $row['Image_Url'] . '">';
+							echo '<a href="http://twitter.com/Climatepedia"><img src="' . 
+										$row['Image_Url'] . '"></a>';
 							echo '<div class="updates-content">';
 							echo '<a href="' . $row['URL'] . '">' . $row['Text'] . '</a>';
 							echo '</div>';

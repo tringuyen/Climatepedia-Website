@@ -7,16 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/glossary.css" />
 
 <?php
-	$dbhost = "localhost";
-	$dbuser = "climatepedia";
-	$dbpwd = "2aJq5NNstWD7c7hN";
-	$con = mysql_connect($dbhost, $dbuser, $dbpwd);
-	if (!$con)
-	{
-		die('Could not connect: ' . mysql_error());
-	}
-	  
-	mysql_select_db("climatepedia_database", $con);
+	include ("inc.db.connection.php");
 ?>
 </head>
 
