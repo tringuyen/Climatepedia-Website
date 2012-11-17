@@ -2,7 +2,7 @@
 	$dbhost = 'localhost';
 	$dbuser   = 'virtus_user9';  
 	$dbpwd   = 'A@Sp!NT9';
-	$dbname = 'climatepedia_database'; 
+	$dbname = 'virtus_climate'; 
 
 	#$dbuser = "climatepedia";
 	#$dbpwd = "2aJq5NNstWD7c7hN"; 
