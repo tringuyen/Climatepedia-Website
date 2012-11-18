@@ -167,7 +167,7 @@
 
 						// Get since_id from database
 						$since_id = '1';
-						$result = mysql_query('SELECT ID FROM Tweets ORDER BY ID DESC LIMIT 1');
+						$result = mysql_query('SELECT ID FROM tweets ORDER BY ID DESC LIMIT 1');
 						if ($row = mysql_fetch_array($result))
 						{
 							$since_id = $row['ID'];
@@ -193,7 +193,7 @@
 						} 
 
 						// Display all the 5 latest tweets
-						$result = mysql_query('SELECT * FROM Tweets ORDER BY ID DESC LIMIT 5');
+						$result = mysql_query('SELECT * FROM tweets ORDER BY ID DESC LIMIT 5');
 						while ($row = mysql_fetch_array($result))
 						{
 							echo '<a href="http://twitter.com/Climatepedia"><img src="' . 
