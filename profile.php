@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<base href="//localhost" />
+<base href="http://climatepedia.org/Climatepedia-Website/" />
 <?php
 	include ("inc.db.connection.php");
 	$profile_id = $_GET["profile_id"];
