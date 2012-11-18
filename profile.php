@@ -41,7 +41,7 @@
 		==================================================-->
 		<div id="content">
 			<?php
-				$result = mysql_query("SELECT * FROM Signatories WHERE ID = $profile_id");
+				$result = mysql_query("SELECT * FROM signatories WHERE ID = $profile_id");
 				$row = mysql_fetch_array($result);
 				echo '<h3>' . $row['First_Name'] . ' ' . $row['Last_Name'] . '</h3>';
 				echo '<HR/>';

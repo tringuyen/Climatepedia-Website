@@ -41,7 +41,7 @@
 			
 			<table border="0" style="width: 100%">
 			<?php
-				$result = mysql_query("SELECT * FROM Signatories ORDER BY First_Name ASC");
+				$result = mysql_query("SELECT * FROM signatories ORDER BY First_Name ASC");
 				$column = 0;
 
 				while ($row = mysql_fetch_array($result))

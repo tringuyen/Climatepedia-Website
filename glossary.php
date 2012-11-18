@@ -41,7 +41,7 @@
 
 			<table border="0" style="width: 100%">
 			<?php
-				$result = mysql_query("SELECT * FROM Glossary ORDER BY Item_Name ASC");
+				$result = mysql_query("SELECT * FROM glossary ORDER BY Item_Name ASC");
 				$column = 0;
 
 				while ($row = mysql_fetch_array($result))

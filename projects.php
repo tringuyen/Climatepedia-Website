@@ -40,7 +40,7 @@
 			<HR/>
 
 			<?php
-				$result = mysql_query("SELECT * FROM Featured_Articles ORDER BY Date ASC");
+				$result = mysql_query("SELECT * FROM featured_articles ORDER BY Date ASC");
 
 				while ($row = mysql_fetch_array($result))
 				{

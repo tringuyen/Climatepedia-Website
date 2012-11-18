@@ -40,7 +40,7 @@
 		==================================================-->
 		<div id="content">
 			<?php
-				$result = mysql_query("SELECT * FROM Glossary WHERE ID = $term_id");
+				$result = mysql_query("SELECT * FROM glossary WHERE ID = $term_id");
 				$row = mysql_fetch_array($result);
 				echo '<h3>' . $row['Item_Name'] . '</h3>';
 				echo '<HR/>';
