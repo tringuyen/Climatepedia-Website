@@ -2,14 +2,14 @@
 ** Hero Item 
 */
 #hero-item {
-	width: auto;
+	width: 100%;
 	height: 295px;
 	border-top-style: solid;
 	border-color: #000000;
 	border-width: 5px;
 	margin-top: 15px;
 
-	background-color: #FD4323;
+	/*background-color: #FD4323;*/
 }
 
 /*
@@ -28,7 +28,7 @@
 
 #feat-proj-cont {
 	width: 640px;
-	height: 400px;
+	min-height: 400px;
 	margin-top: 15px;
 	float: left;
 
@@ -42,6 +42,12 @@
 	float: right;
 
 	/* background-color: #023B47; */
+}
+
+.article_banner
+{
+	width:640px;
+	height:105px;
 }
 
 .main-page-header {
@@ -59,15 +65,26 @@
 	color: #3366CC;
 }
 
+.round-corners {
+	border-radius: 5px;
+}
+
+.updates-icon {
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
 .updates-content {
 	font-family: Arial;
 	font-size: 11px;
 	color: #9E9E9E;
-	float: right;
-	width: 235px;
 	height: auto;
+	width: 255;
+	float: left;
 
 	margin-top: 0px;
+	margin-bottom:0px;
 	margin-left: 5px;
 }
 
@@ -209,4 +226,8 @@
 .carousel-item {
 	height: 295px ;
 	width: 973px ;
+}
+
+.hlink {
+	color:#FFFFFF;
 }
